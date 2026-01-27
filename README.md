@@ -1,97 +1,110 @@
-# 👋 Hi, I’m Nandu Panakanti
-
-🚀 **Full Stack Software Engineer** building **production-grade SaaS systems** that handle real-world business workflows — payments, automation, security, and cloud deployment.
-
-I focus on **backend-driven systems** where the software enforces rules automatically, not dashboards that rely on manual follow-ups.
-
----
-
-## 🧠 How I Think About Software
-
-- Systems should **enforce business rules**, not just display data  
-- Payments must be **verifiable, auditable, and idempotent**  
-- Scaling should be an **infrastructure concern**, not a code rewrite  
-- Security and data integrity are **non-negotiable**  
-
-I enjoy working close to **real constraints** — money, time, users, and failure cases.
+<!-- Hero Typing Animation -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&weight=600&size=28&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=900&lines=Hi%2C+I%E2%80%99m+Nandu+Panakanti;Full+Stack+Software+Engineer;Building+Production-Grade+SaaS+Systems;Payments+%7C+Automation+%7C+Cloud+%7C+Security" />
+</p>
 
 ---
 
-## ⭐ Flagship Project
+<!-- Animated Divider -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3"/>
+</p>
 
-## 🚀 LeaseHub — Production-Ready Property Management SaaS
+## 🧠 Engineering Philosophy (How I Think)
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&size=18&duration=2500&pause=1000&color=9ECE6A&center=true&vCenter=true&width=800&lines=Systems+should+enforce+rules%2C+not+humans;Payments+must+be+verifiable+and+auditable;Scaling+should+not+require+rewriting+code;Security+and+data+integrity+are+non-negotiable" />
+</p>
+
+---
+
+## ⭐ Flagship Project — LeaseHub (Production SaaS)
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=panakantinandu&repo=Property-MS-main&theme=tokyonight" />
+</p>
+
+### 🚀 LeaseHub — Property Management SaaS
 
 🔗 **Admin Portal:** https://leasehub-admin.onrender.com  
 🔗 **Tenant Portal:** https://leasehub-tenant.onrender.com  
 🔗 **Source Code:** https://github.com/panakantinandu/Property-MS-main  
 
-### Why LeaseHub is different
-Most property management tools are dashboards that still depend on humans
-to chase payments and enforce rules.
+**What makes it different:**  
+Most property tools are dashboards that still rely on humans to chase payments.  
+**LeaseHub enforces the entire lease lifecycle at the system level.**
 
-**LeaseHub flips that model — the system enforces the lease lifecycle.**
-
-### What I built
-- Clear **Admin & Tenant role separation**
-- **Stripe-powered** booking deposits, rent payments & invoice tracking
-- Automated **rent cycles, late fees & cancellations**
-- Secure authentication using **JWT + RBAC**
-- **Audit logs** and ledger-based financial consistency
-- Background jobs for time-based enforcement
-- Cloud-native deployment using **MongoDB Atlas + Render**
-
-This project mirrors **real SaaS billing and workflow systems**, not tutorial examples.
+✔ Stripe-based deposits, rent & invoices  
+✔ Automated late fees & cancellations  
+✔ Role-based Admin & Tenant portals  
+✔ JWT auth, audit logs & background jobs  
+✔ MongoDB Atlas + Render deployment  
 
 ---
 
-## 🛠️ Technical Stack
+## 🛠️ Technology Stack (Visual)
 
 ### Languages
-- Java, JavaScript, TypeScript, Python, SQL, PHP
+<p>
+  <img src="https://skillicons.dev/icons?i=java,js,ts,python,php,sql" />
+</p>
 
 ### Frontend
-- React.js, HTML5, CSS3, Bootstrap
+<p>
+  <img src="https://skillicons.dev/icons?i=react,html,css,bootstrap" />
+</p>
 
-### Backend
-- Node.js, Express.js, REST APIs
+### Backend & Databases
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql" />
+</p>
 
-### Databases
-- MongoDB Atlas, MySQL, Oracle, SQL Server
-
-### Payments & Security
-- Stripe (Checkout, Webhooks, Invoices)
-- JWT Authentication
-- Role-Based Access Control
-- bcrypt
-- Secure environment configuration
-
-### Cloud & DevOps
-- AWS (IAM, RDS)
-- Render, Vercel
-
-### Tools & Platforms
-- Git, GitHub
-- Firebase
-- Streamlit
-- Arduino
+### Cloud & Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,git,github,firebase" />
+</p>
 
 ---
 
-## 📈 What I’m Actively Improving
+## 📈 GitHub Activity (Live & Animated)
 
-- Algorithmic problem-solving (LeetCode, pattern-based DSA)
-- Backend scalability & system design fundamentals
-- Writing clearer, more maintainable production code
-- Learning from real-world failure modes (payments, retries, edge cases)
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=panakantinandu&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=panakantinandu&show_icons=true&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 🧩 What I’m Actively Improving
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&size=18&duration=2500&pause=1000&color=F7768E&center=true&vCenter=true&width=800&lines=Advanced+DSA+patterns+%7C+LeetCode;Backend+scalability+and+system+design;Payment+edge+cases+and+failure+handling;Writing+cleaner+production+code" />
+</p>
 
 ---
 
 ## 📫 Let’s Connect
 
-- 📧 Email: **panakantinandu@gmail.com**
-- 🔗 LinkedIn: https://linkedin.com/in/nandu-panakanti-41839731a
-- 🌐 Portfolio: https://nandu-portfolio-three.vercel.app
+<p align="center">
+  <a href="mailto:panakantinandu@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-informational?style=for-the-badge&logo=gmail&color=EA4335" />
+  </a>
+  <a href="https://linkedin.com/in/nandu-panakanti-41839731a">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-informational?style=for-the-badge&logo=linkedin&color=0A66C2" />
+  </a>
+  <a href="https://nandu-portfolio-three.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-View-informational?style=for-the-badge&logo=vercel&color=000000" />
+  </a>
+</p>
 
 ---
 
-> 💡 *I’m actively seeking Software Engineering roles and internships where I can build and scale real systems that handle users, data, and payments.*
+<p align="center">
+  <strong>
+    Actively seeking Software Engineering roles & internships<br/>
+    where I can build scalable, secure, production systems.
+  </strong>
+</p>
