@@ -1,102 +1,115 @@
-<!-- Hero Typing Animation -->
+<!-- ======================= HERO SECTION ======================= -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&weight=600&size=28&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=900&lines=Hi%2C+I%E2%80%99m+Nandu+Panakanti;Full+Stack+Software+Engineer;Building+Production-Grade+SaaS+Systems;Payments+%7C+Automation+%7C+Cloud+%7C+Security" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=240&text=Nandu%20Panakanti&fontAlignY=40&fontSize=48&desc=Full%20Stack%20Software%20Engineer%20%7C%20Production%20SaaS%20Builder&descAlignY=60&animation=fadeIn&color=gradient"/>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&weight=600&size=24&duration=2800&pause=800&color=58A6FF&center=true&vCenter=true&width=900&lines=I+build+systems+that+enforce+business+rules;Payments+%7C+Automation+%7C+Security+%7C+Cloud;Not+just+dashboards+—+real+SaaS+systems" />
 </p>
 
 ---
 
-<!-- Animated Divider -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3"/>
-</p>
+## 🧠 Engineering Mindset
 
-## 🧠 Engineering Philosophy (How I Think)
+> I design backend-first systems where **software enforces workflows**,  
+> **payments are auditable**, and **scaling does not require rewrites**.
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&size=18&duration=2500&pause=1000&color=9ECE6A&center=true&vCenter=true&width=800&lines=Systems+should+enforce+rules%2C+not+humans;Payments+must+be+verifiable+and+auditable;Scaling+should+not+require+rewriting+code;Security+and+data+integrity+are+non-negotiable" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&size=18&duration=2400&pause=1000&color=9ECE6A&center=true&vCenter=true&width=900&lines=Business+logic+belongs+in+code%2C+not+manual+processes;Payments+must+be+verifiable+and+idempotent;Security+and+data+integrity+are+non-negotiable;Systems+should+fail+gracefully+under+real+constraints" />
 </p>
 
 ---
 
-## ⭐ Flagship Project — LeaseHub (Production SaaS)
+## 🚀 Flagship Project — LeaseHub (Production SaaS)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=panakantinandu&repo=Property-MS-main&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=panakantinandu&repo=Property-MS-main&theme=tokyonight&hide_border=true" />
 </p>
 
-### 🚀 LeaseHub — Property Management SaaS
+### 🏠 LeaseHub — Property Management SaaS
+
+**Problem with existing systems**  
+Most rental platforms act as passive dashboards — landlords still:
+- track rent manually
+- chase tenants for payments
+- handle cancellations outside the system
+
+**What LeaseHub changes**  
+LeaseHub **enforces the entire lease lifecycle at the system level**.
+
+**Core capabilities**
+- Role-separated **Admin & Tenant portals**
+- **Stripe-based** booking deposits, rent & invoices
+- Automated **monthly rent cycles**
+- Late-fee enforcement and **auto-cancellation**
+- Ledger-based accounting model (Invoices ≠ Payments)
+- Secure **JWT authentication + RBAC**
+- Audit logs for financial and admin actions
+- Background jobs for time-based enforcement
+- Cloud-native deployment (**MongoDB Atlas + Render**)
 
 🔗 **Admin Portal:** https://leasehub-admin.onrender.com  
 🔗 **Tenant Portal:** https://leasehub-tenant.onrender.com  
 🔗 **Source Code:** https://github.com/panakantinandu/Property-MS-main  
 
-**What makes it different:**  
-Most property tools are dashboards that still rely on humans to chase payments.  
-**LeaseHub enforces the entire lease lifecycle at the system level.**
+---
 
-✔ Stripe-based deposits, rent & invoices  
-✔ Automated late fees & cancellations  
-✔ Role-based Admin & Tenant portals  
-✔ JWT auth, audit logs & background jobs  
-✔ MongoDB Atlas + Render deployment  
+## 🧩 System Thinking (What I Build)
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&size=18&duration=2600&pause=900&color=F7768E&center=true&vCenter=true&width=900&lines=Auth+systems+with+RBAC+and+JWT;Payment+flows+with+webhook+verification;Background+workers+and+cron+automation;Cloud-ready+services+with+clean+separation+of+concerns" />
+</p>
 
 ---
 
 ## 🛠️ Technology Stack (Visual)
 
 ### Languages
-<p>
-  <img src="https://skillicons.dev/icons?i=java,js,ts,python,php,sql" />
-</p>
+<img src="https://skillicons.dev/icons?i=java,js,ts,python,php,sql" />
 
 ### Frontend
-<p>
-  <img src="https://skillicons.dev/icons?i=react,html,css,bootstrap" />
-</p>
+<img src="https://skillicons.dev/icons?i=react,html,css,bootstrap" />
 
 ### Backend & Databases
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql" />
-</p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql" />
 
 ### Cloud & Tools
-<p>
-  <img src="https://skillicons.dev/icons?i=aws,git,github,firebase" />
+<img src="https://skillicons.dev/icons?i=aws,git,github,firebase,vercel" />
+
+---
+
+## 📊 Live GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=panakantinandu&theme=tokyonight&hide_border=true"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=panakantinandu&show_icons=true&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
 
-## 📈 GitHub Activity (Live & Animated)
+## 📈 What I’m Actively Improving
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=panakantinandu&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=panakantinandu&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
+- Advanced **DSA patterns** (LeetCode, interview-focused)
+- Backend **scalability & system design**
+- Payment failure handling & retries
+- Writing clearer, maintainable production code
 
 ---
 
-## 🧩 What I’m Actively Improving
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&size=18&duration=2500&pause=1000&color=F7768E&center=true&vCenter=true&width=800&lines=Advanced+DSA+patterns+%7C+LeetCode;Backend+scalability+and+system+design;Payment+edge+cases+and+failure+handling;Writing+cleaner+production+code" />
-</p>
-
----
-
-## 📫 Let’s Connect
+## 📫 Connect With Me
 
 <p align="center">
   <a href="mailto:panakantinandu@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-informational?style=for-the-badge&logo=gmail&color=EA4335" />
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://linkedin.com/in/nandu-panakanti-41839731a">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-informational?style=for-the-badge&logo=linkedin&color=0A66C2" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://nandu-portfolio-three.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-View-informational?style=for-the-badge&logo=vercel&color=000000" />
+    <img src="https://img.shields.io/badge/Portfolio-View-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
 </p>
 
@@ -105,6 +118,6 @@ Most property tools are dashboards that still rely on humans to chase payments.
 <p align="center">
   <strong>
     Actively seeking Software Engineering roles & internships<br/>
-    where I can build scalable, secure, production systems.
+    focused on backend systems, SaaS platforms, and real-world scalability.
   </strong>
 </p>
