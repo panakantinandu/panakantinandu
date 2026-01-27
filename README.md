@@ -1,123 +1,126 @@
-<!-- ======================= HERO SECTION ======================= -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=240&text=Nandu%20Panakanti&fontAlignY=40&fontSize=48&desc=Full%20Stack%20Software%20Engineer%20%7C%20Production%20SaaS%20Builder&descAlignY=60&animation=fadeIn&color=gradient"/>
-</p>
+<!-- HERO SECTION -->
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&weight=600&size=24&duration=2800&pause=800&color=58A6FF&center=true&vCenter=true&width=900&lines=I+build+systems+that+enforce+business+rules;Payments+%7C+Automation+%7C+Security+%7C+Cloud;Not+just+dashboards+—+real+SaaS+systems" />
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Nandu%20Panakanti&fontAlign=50&fontAlignY=40&desc=Full%20Stack%20Software%20Engineer%20|%20Production%20SaaS%20Builder&descAlign=50&descAlignY=60&color=gradient" />
+
+</div>
+
+---
+
+## 👋 Hi, I’m Nandu
+
+I build **production-grade SaaS platforms** where  
+**business rules are enforced by code**, not manual processes.
+
+- Backend-first system design  
+- Secure payments & financial workflows  
+- Automation, scalability, and auditability  
+
+> **“Business logic belongs in code, not spreadsheets.”**
 
 ---
 
 ## 🧠 Engineering Mindset
 
-> I design backend-first systems where **software enforces workflows**,  
-> **payments are auditable**, and **scaling does not require rewrites**.
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&size=18&duration=2400&pause=1000&color=9ECE6A&center=true&vCenter=true&width=900&lines=Business+logic+belongs+in+code%2C+not+manual+processes;Payments+must+be+verifiable+and+idempotent;Security+and+data+integrity+are+non-negotiable;Systems+should+fail+gracefully+under+real+constraints" />
-</p>
+- Design systems that **scale without rewrites**
+- Separate **Invoices, Payments, and Ledger entries**
+- Treat **security, payments, and automation** as first-class features
+- Build for **real users, real money, real consequences**
 
 ---
 
 ## 🚀 Flagship Project — LeaseHub (Production SaaS)
 
-<p align="center">
- <img src="https://github-readme-stats.vercel.app/api/pin/?username=panakantinandu&repo=Property-MS-main&theme=tokyonight&hide_border=true&cache_seconds=1800" />
-</p>
+> A **real-world Property Management SaaS**, not a CRUD demo.
 
-### 🏠 LeaseHub — Property Management SaaS
+### 🔥 What makes it different?
+Most property apps rely on **manual admin actions**.  
+**LeaseHub enforces rules automatically** — like a real system.
 
-**Problem with existing systems**  
-Most rental platforms act as passive dashboards — landlords still:
-- track rent manually
-- chase tenants for payments
-- handle cancellations outside the system
-
-**What LeaseHub changes**  
-LeaseHub **enforces the entire lease lifecycle at the system level**.
-
-**Core capabilities**
-- Role-separated **Admin & Tenant portals**
-- **Stripe-based** booking deposits, rent & invoices
-- Automated **monthly rent cycles**
-- Late-fee enforcement and **auto-cancellation**
-- Ledger-based accounting model (Invoices ≠ Payments)
-- Secure **JWT authentication + RBAC**
-- Audit logs for financial and admin actions
-- Background jobs for time-based enforcement
-- Cloud-native deployment (**MongoDB Atlas + Render**)
-
-🔗 **Admin Portal:** https://leasehub-admin.onrender.com  
-🔗 **Tenant Portal:** https://leasehub-tenant.onrender.com  
-🔗 **Source Code:** https://github.com/panakantinandu/Property-MS-main  
+✔ No manual rent tracking  
+✔ No manual late fee calculation  
+✔ No manual cancellations  
+✔ No payment mismatches  
 
 ---
 
-## 🧩 System Thinking (What I Build)
+### 📌 Live Project Card (Auto-Synced)
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&size=18&duration=2600&pause=900&color=F7768E&center=true&vCenter=true&width=900&lines=Auth+systems+with+RBAC+and+JWT;Payment+flows+with+webhook+verification;Background+workers+and+cron+automation;Cloud-ready+services+with+clean+separation+of+concerns" />
-</p>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=panakantinandu&repo=Property-MS-main&theme=tokyonight&hide_border=true&cache_seconds=1800" />
 
 ---
 
-## 🛠️ Technology Stack (Visual)
-
-### Languages
-<img src="https://skillicons.dev/icons?i=java,js,ts,python,php,sql" />
-
-### Frontend
-<img src="https://skillicons.dev/icons?i=react,html,css,bootstrap" />
-
-### Backend & Databases
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql" />
-
-### Cloud & Tools
-<img src="https://skillicons.dev/icons?i=aws,git,github,firebase,vercel" />
+### 🌐 Live Demos
+- 🧑‍💼 **Admin Portal:** https://leasehub-admin.onrender.com  
+- 🧑‍💻 **Tenant Portal:** https://leasehub-tenant.onrender.com  
+- 💻 **Source Code:** https://github.com/panakantinandu/Property-MS-main  
 
 ---
 
-## 📊 Live GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=panakantinandu&theme=tokyonight&hide_border=true"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=panakantinandu&show_icons=true&theme=tokyonight&hide_border=true"/>
-</p>
-
----
-
-## 📈 What I’m Actively Improving
-
-- Advanced **DSA patterns** (LeetCode, interview-focused)
-- Backend **scalability & system design**
-- Payment failure handling & retries
-- Writing clearer, maintainable production code
+### 🧩 Key Capabilities
+- Admin & Tenant portals (separate deployments)
+- Stripe Checkout + Webhooks (test mode)
+- Automated monthly rent invoices
+- Booking deposits & late fee enforcement
+- Auto-cancellation on non-payment
+- Audit logs & financial ledgers
+- Cron-based background jobs
+- Secure auth (JWT + bcrypt)
+- MongoDB Atlas + Render deployment
+- Resend.com email delivery (password reset, reminders)
 
 ---
 
-## 📫 Connect With Me
+## 🛠 Tech Stack
 
-<p align="center">
-  <a href="mailto:panakantinandu@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://linkedin.com/in/nandu-panakanti-41839731a">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://nandu-portfolio-three.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-View-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-  </a>
-</p>
+**Backend**
+- Node.js, Express.js
+- REST APIs
+- MongoDB Atlas
+- Stripe (Checkout, Webhooks)
+- JWT, bcrypt
+- Cron jobs
+
+**Frontend**
+- Handlebars (HBS)
+- Bootstrap
+
+**Cloud & DevOps**
+- Render
+- MongoDB Atlas
+- Environment-based configuration
 
 ---
 
-<p align="center">
-  <strong>
-    Actively seeking Software Engineering roles & internships<br/>
-    focused on backend systems, SaaS platforms, and real-world scalability.
-  </strong>
-</p>
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=panakantinandu&show_icons=true&theme=tokyonight&hide_border=true" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=panakantinandu&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+## 📫 Let’s Connect
+
+- 📧 Email: **panakantinandu@gmail.com**
+- 💼 LinkedIn: https://linkedin.com/in/nandu-panakanti-41839731a
+- 🌐 Portfolio: https://nandu-portfolio-three.vercel.app
+- 🧠 GitHub: https://github.com/panakantinandu
+
+---
+
+## 🏁 Final Note
+
+This profile and project are intentionally built to demonstrate:
+
+- Real SaaS thinking  
+- Secure payment systems  
+- Automation over manual work  
+- Production deployment experience  
+
+If you’re a recruiter or engineer —  
+**this project shows how I think, not just what I code.**
