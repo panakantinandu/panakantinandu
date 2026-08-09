@@ -15,7 +15,6 @@
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-nandu--portfolio-8B5CF6?style=for-the-badge&logoColor=white)](https://nandupanakanti.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nandu-panakanti-41839731a)
 [![Email](https://img.shields.io/badge/Gmail-panakantinandu-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:panakantinandu@gmail.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode-200%2B_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Nandupanak/)
 
