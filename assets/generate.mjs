@@ -98,7 +98,7 @@ function hero() {
   return `
 <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="t d">
 <title id="t">Nandu Panakanti, Software Engineer</title>
-<desc id="d">Software engineer focused on backend, distributed systems and AI agents. Open to full-time roles. An animated diagram shows requests flowing from a client through a gateway to a queue, an AI agent and Postgres.</desc>
+<desc id="d">Software engineer at BTG focused on backend, distributed systems and AI agents. Based in Dallas, TX. An animated diagram shows requests flowing from a client through a gateway to a queue, an AI agent and Postgres.</desc>
 <defs>
   <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="${T.border}"/></pattern>
   <radialGradient id="glow" cx="78%" cy="50%" r="50%"><stop offset="0" stop-color="${T.mint}" stop-opacity=".09"/><stop offset="1" stop-color="${T.mint}" stop-opacity="0"/></radialGradient>
@@ -126,12 +126,12 @@ function hero() {
 <text class="sans rise"${delay(0.35)} x="64" y="202" font-size="22" fill="${T.soft}">Software Engineer</text>
 <text class="mono rise"${delay(0.45)} x="64" y="234" font-size="12.5" fill="${T.cyan}" letter-spacing="2">BACKEND  /  DISTRIBUTED SYSTEMS  /  AI AGENTS</text>
 <g class="rise"${delay(0.6)}>
-  <rect x="64" y="264" width="500" height="34" rx="17" fill="${T.mint}" fill-opacity=".07" stroke="${T.mint}" stroke-opacity=".35"/>
+  <rect x="64" y="264" width="438" height="34" rx="17" fill="${T.mint}" fill-opacity=".07" stroke="${T.mint}" stroke-opacity=".35"/>
   <circle cx="86" cy="281" r="4" fill="${T.mint}"/>
   <circle class="ping" cx="86" cy="281" r="4" fill="${T.mint}"/>
-  <text x="100" y="285.5" class="mono" font-size="12.5" fill="${T.text}">Open to full-time SWE roles · M.S. CS 2026 · Relocation OK</text>
+  <text x="100" y="285.5" class="mono" font-size="12.5" fill="${T.text}">Now: Software Engineer at BTG · Stripe billing systems</text>
 </g>
-<text class="mono rise"${delay(0.75)} x="64" y="340" font-size="12.5" fill="${T.muted}" xml:space="preserve">Overland Park, KS   ·   Java   ·   Python   ·   TypeScript</text>
+<text class="mono rise"${delay(0.75)} x="64" y="340" font-size="12.5" fill="${T.muted}" xml:space="preserve">Dallas, TX   ·   M.S. CS 2026   ·   Open to relocate</text>
 
 <!-- live topology -->
 <g class="rise"${delay(0.4)}>
@@ -321,7 +321,7 @@ const visuals = {
 
 const cards = [
   {
-    file: 'factoryflow', accent: T.amber, tag: 'AI AGENTS · JUN 2026', status: 'live',
+    file: 'factoryflow', accent: T.amber, tag: 'BUILDATHON DALLAS · 2026', status: 'live',
     name: 'FactoryFlow AI',
     hook: ['Manufacturing copilot. A LangGraph agent routes machine', 'alarms by confidence, then streams the diagnosis live.'],
     chips: ['Spring Boot', 'FastAPI', 'LangGraph', 'PostgreSQL', 'SSE', 'AWS'],
@@ -364,6 +364,87 @@ const cards = [
   },
 ];
 
+/* ─────────────────────── FLAGSHIP (full width) ─────────────────────── */
+
+function sheout() {
+  const W = 1200, H = 340, a = T.amber;
+  const chips = ['Java 21', 'Spring Boot 3', 'React PWAs', 'PostgreSQL', 'Redis geo', 'Razorpay'];
+  let cx = 40;
+  const chipSvg = chips.map((c, i) => {
+    const w = Math.round(c.length * 6.7 + 20);
+    const s = `<g class="rise"${delay((0.55 + i * 0.06).toFixed(2))}><rect x="${cx}" y="284" width="${w}" height="24" rx="12" fill="${T.surface}" stroke="${T.border}"/><text x="${cx + w / 2}" y="300" text-anchor="middle" class="mono" font-size="11" fill="${T.soft}">${c}</text></g>`;
+    cx += w + 8;
+    return s;
+  }).join('');
+  if (cx > 610) console.warn(`  ! chips overflow on SheOut (${cx}px)`);
+
+  // Map panel on the right: streets, a route, and a partner riding it.
+  const px = 650, py = 72, pw = 510, ph = 240;
+  const route = 'M700 268 C780 268 790 196 870 200 S1010 236 1050 170 S1090 112 1112 112';
+  const streets = [
+    `M${px} 140 H${px + pw}`, `M${px} 230 H${px + pw}`, `M${px} 290 H${px + pw}`,
+    'M720 72 V312', 'M840 72 V312', 'M960 72 V312', 'M1080 72 V312',
+    'M650 300 L860 72', 'M900 312 L1160 120',
+  ];
+  return `
+<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="t d">
+<title id="t">SheOut: women-only bike taxi, parcel delivery and marketplace</title>
+<desc id="d">Launched product in Hyderabad. A map shows a verified woman partner riding the route from pickup to drop, with a pickup code, live trip sharing and an SOS button.</desc>
+<defs>
+  <radialGradient id="glow" cx="100%" cy="0%" r="60%"><stop offset="0" stop-color="${a}" stop-opacity=".12"/><stop offset="1" stop-color="${a}" stop-opacity="0"/></radialGradient>
+  <linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="${a}" stop-opacity="0"/><stop offset=".85" stop-color="${a}"/><stop offset="1" stop-color="${a}" stop-opacity="0"/></linearGradient>
+  <clipPath id="card"><rect width="${W}" height="${H}" rx="18"/></clipPath>
+  <clipPath id="map"><rect x="${px}" y="${py}" width="${pw}" height="${ph}" rx="12"/></clipPath>
+  ${style(`.sweep{animation-duration:4.4s}
+.dash{stroke-dasharray:6 6;animation:dash 1.2s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-12}}`)}
+</defs>
+<g clip-path="url(#card)">
+  <rect width="${W}" height="${H}" fill="${T.bg}"/>
+  <rect width="${W}" height="${H}" fill="url(#glow)"/>
+  <rect width="${W}" height="2" fill="${a}" opacity=".3"/>
+  <rect class="sweep motion" width="160" height="2" fill="url(#sw)"/>
+</g>
+<rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="17.5" fill="none" stroke="${T.border}"/>
+
+<text class="mono rise" x="40" y="52" font-size="11" fill="${a}" letter-spacing="1.5">FLAGSHIP · LAUNCHED IN HYDERABAD · 2026</text>
+<text class="sans rise"${delay(0.1)} x="38" y="112" font-size="44" font-weight="700" fill="${T.text}" letter-spacing="-1">SheOut</text>
+<text class="sans rise"${delay(0.2)} x="40" y="148" font-size="16" fill="${T.soft}">Women-only bike taxi, parcel delivery and marketplace.</text>
+<text class="sans rise"${delay(0.25)} x="40" y="172" font-size="16" fill="${T.soft}">Verified partners, pickup codes, live trip sharing and SOS on</text>
+<text class="sans rise"${delay(0.3)} x="40" y="196" font-size="16" fill="${T.soft}">every ride, in English, Hindi and Telugu.</text>
+<text class="mono rise"${delay(0.4)} x="40" y="246" font-size="11" fill="${T.muted}" letter-spacing=".5">modular monolith · domain events · geo dispatch · two-person approvals</text>
+${chipSvg}
+
+<!-- map -->
+<g class="rise"${delay(0.3)}>
+  <rect x="${px}" y="${py}" width="${pw}" height="${ph}" rx="12" fill="${T.surface}" stroke="${T.border}"/>
+  <g clip-path="url(#map)">
+    ${streets.map((d) => `<path d="${d}" stroke="#18212C" stroke-width="6" fill="none"/>`).join('')}
+    <path d="${route}" fill="none" stroke="${a}" stroke-opacity=".25" stroke-width="8" stroke-linecap="round"/>
+    <path class="dash" d="${route}" fill="none" stroke="${a}" stroke-width="2.5" stroke-linecap="round"/>
+    ${packet(route, { dur: 6, begin: 0.6, color: T.text, r: 5 })}
+  </g>
+  <circle cx="700" cy="268" r="7" fill="${T.mint}"/><circle class="ping" cx="700" cy="268" r="7" fill="${T.mint}"/>
+  <text x="714" y="290" class="mono" font-size="10" fill="${T.soft}">pickup</text>
+  <path d="M1112 112 m0 -18 a9 9 0 0 1 9 9 c0 7 -9 15 -9 15 s-9 -8 -9 -15 a9 9 0 0 1 9 -9z" fill="${a}"/>
+  <text x="1126" y="116" class="mono" font-size="10" fill="${T.soft}">drop</text>
+
+  <rect x="${px + 14}" y="${py + 14}" width="196" height="30" rx="8" fill="${T.bg}" stroke="${T.border}"/>
+  <text x="${px + 26}" y="${py + 33}" class="mono" font-size="10.5" fill="${T.muted}" xml:space="preserve">PICKUP CODE  <tspan fill="${T.text}" font-weight="700">4  8  2  7</tspan></text>
+
+  <rect x="${px + 14}" y="${py + 52}" width="150" height="26" rx="8" fill="${T.bg}" stroke="${T.border}"/>
+  <circle cx="${px + 28}" cy="${py + 65}" r="3.5" fill="${T.mint}"/>
+  <text x="${px + 38}" y="${py + 69}" class="mono" font-size="10.5" fill="${T.soft}">partner verified</text>
+
+  <rect x="${px + pw - 150}" y="${py + ph - 42}" width="76" height="28" rx="14" fill="${T.bg}" stroke="${T.border}"/>
+  <circle cx="${px + pw - 136}" cy="${py + ph - 28}" r="3.5" fill="${T.cyan}"/><circle class="ping" cx="${px + pw - 136}" cy="${py + ph - 28}" r="3.5" fill="${T.cyan}"/>
+  <text x="${px + pw - 126}" y="${py + ph - 24}" class="mono" font-size="10.5" fill="${T.soft}">live</text>
+  <rect x="${px + pw - 66}" y="${py + ph - 42}" width="52" height="28" rx="14" fill="${T.red}"/>
+  <text x="${px + pw - 40}" y="${py + ph - 23.5}" text-anchor="middle" class="sans" font-size="12" font-weight="700" fill="${T.bg}">SOS</text>
+</g>
+</svg>`;
+}
+
 /* ──────────────────────────── STATS STRIP ──────────────────────────── */
 
 function stats() {
@@ -372,7 +453,7 @@ function stats() {
     ['25%', 'LATENCY CUT IN PROD'],
     ['10+', 'SYSTEMS SHIPPED'],
     ['200+', 'LEETCODE SOLVED'],
-    ['4', 'CLOUD + AI CERTS'],
+    ['7', 'CERTIFICATIONS'],
   ];
   const cells = items.map(([v, l], i) => {
     const x = 56 + i * 284;
@@ -388,7 +469,7 @@ function stats() {
 
   return `
 <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="t">
-<title id="t">25% latency cut in production, 10+ systems shipped, 200+ LeetCode problems solved, 4 cloud and AI certifications</title>
+<title id="t">25% latency cut in production, 10+ systems shipped, 200+ LeetCode problems solved, 7 certifications</title>
 <defs><clipPath id="card"><rect width="${W}" height="${H}" rx="16"/></clipPath>${style()}</defs>
 <g clip-path="url(#card)"><rect width="${W}" height="${H}" fill="${T.bg}"/></g>
 <rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="15.5" fill="none" stroke="${T.border}"/>
@@ -433,7 +514,7 @@ function footer() {
 </g>
 <rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="19.5" fill="none" stroke="${T.border}"/>
 <g class="rise">
-  <text x="64" y="62" class="mono" font-size="13" fill="${T.muted}">nandu@systems:~$ <tspan fill="${T.mint}">./connect --role swe --relocate yes </tspan><tspan class="blink" fill="${T.mint}">█</tspan></text>
+  <text x="64" y="62" class="mono" font-size="13" fill="${T.muted}">nandu@systems:~$ <tspan fill="${T.mint}">./connect.sh </tspan><tspan class="blink" fill="${T.mint}">█</tspan></text>
 </g>
 <text class="sans rise"${delay(0.15)} x="62" y="112" font-size="34" font-weight="700" fill="${T.text}" letter-spacing="-.6">Let's build systems that don't page you at 2 AM.</text>
 <text class="sans rise"${delay(0.3)} x="64" y="142" font-size="15" fill="${T.soft}">Backend · Distributed systems · AI agents. The links below are the fastest way to reach me.</text>
@@ -446,6 +527,7 @@ function footer() {
 
 write('hero.svg', hero());
 write('stats.svg', stats());
+write('cards/sheout.svg', sheout());
 write('divider.svg', divider());
 write('footer.svg', footer());
 for (const c of cards) write(`cards/${c.file}.svg`, card({ ...c, visual: visuals[c.file] }));

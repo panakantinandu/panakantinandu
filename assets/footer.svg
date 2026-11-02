@@ -31,7 +31,7 @@
 </g>
 <rect x=".5" y=".5" width="1199" height="239" rx="19.5" fill="none" stroke="#1E2733"/>
 <g class="rise">
-  <text x="64" y="62" class="mono" font-size="13" fill="#8B98A9">nandu@systems:~$ <tspan fill="#3DFFA8">./connect --role swe --relocate yes </tspan><tspan class="blink" fill="#3DFFA8">█</tspan></text>
+  <text x="64" y="62" class="mono" font-size="13" fill="#8B98A9">nandu@systems:~$ <tspan fill="#3DFFA8">./connect.sh </tspan><tspan class="blink" fill="#3DFFA8">█</tspan></text>
 </g>
 <text class="sans rise" style="animation-delay:0.15s" x="62" y="112" font-size="34" font-weight="700" fill="#E6EDF3" letter-spacing="-.6">Let's build systems that don't page you at 2 AM.</text>
 <text class="sans rise" style="animation-delay:0.3s" x="64" y="142" font-size="15" fill="#B5C0CE">Backend · Distributed systems · AI agents. The links below are the fastest way to reach me.</text>
