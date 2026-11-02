@@ -1,286 +1,254 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=240&section=header&text=Nandu%20Panakanti&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20-%20AI%20Systems%20%7C%20Backend%20%7C%20SaaS%20Platforms&descSize=17&descAlignY=58&descColor=a78bfa"/>
-
-</div>
+<a href="https://nandupanakanti.vercel.app/">
+  <img src="assets/hero.svg" width="100%" alt="Nandu Panakanti, Software Engineer. Backend, distributed systems and AI agents. Open to full-time SWE roles, M.S. CS 2026, relocation OK." />
+</a>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=false&width=700&lines=Building+AI-powered+production+platforms;Designing+systems+that+enforce+business+logic;Turning+manual+workflows+into+automated+code;Full-stack+%7C+Distributed+Systems+%7C+Cloud+Native" alt="Typing SVG" />
-
-</div>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3200&pause=900&color=3DFFA8&center=true&vCenter=true&width=760&lines=Business+rules+belong+in+code%2C+not+in+reminders.;Shipping+LLM+agents+with+LangGraph+%2B+Claude.;Idempotent+payments.+Replay-safe+webhooks.+Traceable+failures.;Java+%C2%B7+Python+%C2%B7+TypeScript+%C2%B7+Spring+Boot+%C2%B7+FastAPI" alt="Business rules belong in code, not in reminders. Shipping LLM agents with LangGraph and Claude. Idempotent payments, replay-safe webhooks, traceable failures." />
 
 <br/>
 
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-nandu--portfolio-8B5CF6?style=for-the-badge&logoColor=white)](https://nandupanakanti.vercel.app/)
-[![Email](https://img.shields.io/badge/Gmail-panakantinandu-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:panakantinandu@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-200%2B_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Nandupanak/)
-
-</div>
-
----
-
-## ⚡ What I Build
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                                                                     │
-│   AI-Powered Platforms   →   PropMind, AI Workflow Automation       │
-│   Distributed Systems    →   Kafka, BullMQ, Redis, Event-Driven     │
-│   Production SaaS        →   LeaseHub, Multi-Tenant, Stripe         │
-│   Cloud Security         →   AWS IAM Drift Detection, Lambda        │
-│   ML Engineering         →   SHAP, Attrition Prediction, Explainable│
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
-```
-
-> Business logic belongs in code — not spreadsheets, not reminders, not trust.  
-> I design backend-first systems where payments are verifiable, workflows are automated, and failures are traceable.
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Backend & APIs**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-
-**Databases**
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
-
-**AI & Data**
-
-![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LLM_Integration-8B5CF6?style=flat-square&logoColor=white)
-![SHAP](https://img.shields.io/badge/SHAP-Explainable_AI-FF6B6B?style=flat-square&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-
-**Cloud & DevOps**
-
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+[![Portfolio](https://img.shields.io/badge/Portfolio-nandupanakanti.vercel.app-10151D?style=for-the-badge&logo=vercel&logoColor=3DFFA8&labelColor=0A0D12)](https://nandupanakanti.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-10151D?style=for-the-badge&logo=linkedin&logoColor=3DFFA8&labelColor=0A0D12)](https://www.linkedin.com/in/nandu-panakanti-41839731a/)
+[![Email](https://img.shields.io/badge/Email-panakantinandu%40gmail.com-10151D?style=for-the-badge&logo=gmail&logoColor=3DFFA8&labelColor=0A0D12)](mailto:panakantinandu@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-200%2B_solved-10151D?style=for-the-badge&logo=leetcode&logoColor=FFB547&labelColor=0A0D12)](https://leetcode.com/u/Nandupanak/)
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
-## 🚀 Projects
+## About
 
-### 🏠 PropMind — AI-Powered Property Management Platform
-> `Node.js` `Express` `MongoDB` `OpenAI API` `Stripe` `BullMQ` `Redis` `Socket.io`
+I'm a software engineer who builds **backend-first systems**: distributed, event-driven services in **Spring Boot, FastAPI and Express**, backed by **PostgreSQL, MongoDB and Redis**, shipped on **AWS with Docker and GitHub Actions**. Lately most of my work is **LLM agent systems** — LangGraph reasoning graphs, tool calling, retrieval, and the guardrails that make them safe to run in production.
 
-**The problem:** Property management is full of manual steps — approving applications, chasing rent, triaging maintenance. PropMind replaces every manual step with code.
+- **Now** — building [DevArena](https://github.com/panakantinandu/DevArena) (real-time multiplayer interview prep) and [Draftly](https://github.com/panakantinandu/Collaborative_Editor) (a permissioned document workspace)
+- **Background** — production backend experience at Jio Robotics; M.S. Computer Science, University of Central Missouri (2026)
+- **Looking for** — full-time SWE roles in backend, platform or AI systems · based in Overland Park, KS · open to relocation
 
-```mermaid
-sequenceDiagram
-    participant T as Tenant
-    participant S as System
-    participant AI as AI Layer
-    participant ST as Stripe
-    participant A as Admin
+<img src="assets/stats.svg" width="100%" alt="25% latency cut in production. 10+ systems shipped. 200+ LeetCode problems solved. 4 cloud and AI certifications." />
 
-    T->>S: Submit application
-    S->>AI: Score tenant risk
-    AI-->>S: Risk score + confidence + red flags
-    S->>A: Notify with AI analysis
-    A->>S: Approve application
-    S->>T: Deposit required (timer starts)
-    T->>ST: Pay deposit
-    ST->>S: Webhook (signature verified)
-    S->>S: Property → RESERVED, Ledger entry created
-    Note over S: 1st of month — cron fires
-    S->>S: Generate invoice for all ACTIVE leases
-    S->>T: Rent reminder (3 days before due)
-    T->>ST: Pay rent
-    ST->>S: Webhook verified
-    S->>S: Invoice → PAID, LedgerEntry, Notification
-    A->>S: View AI financial summary
-    S->>AI: Summarize revenue, dues, overdue
-    AI-->>A: Natural language financial narrative
-```
+<img src="assets/divider.svg" width="100%" alt="" />
 
-**What's under the hood:**
+## Experience
 
-| Layer | What it does |
+<table>
+<tr>
+<td width="190" valign="top">
+<sub><b>SEP 2025 — JAN 2026</b></sub><br/>
+<sub>Overland Park, KS</sub>
+</td>
+<td valign="top">
+<b>Software Engineer Intern</b> · Jio Robotics
+<ul>
+<li><b>Cut average response latency by 25%</b> across key production endpoints by profiling SQL queries and API execution paths and removing the bottlenecks.</li>
+<li>Designed and shipped backend services and internal REST APIs for real-time operational workflows across consecutive Agile sprints, with peer code review at every stage.</li>
+<li>Turned ambiguous business requirements into concrete backend designs, working directly with cross-functional stakeholders in sprint planning and standups.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td width="190" valign="top">
+<sub><b>AUG 2023 — JUN 2024</b></sub><br/>
+<sub>India</sub>
+</td>
+<td valign="top">
+<b>Research Analyst, Software Systems</b> · Central Institute of Tool Design
+<ul>
+<li>Built a real-time embedded object-detection system on Arduino with ultrasonic sensors, using time-of-flight signal processing for accurate distance measurement on Linux.</li>
+<li>Improved measurement reliability with Python data-visualization workflows and structured calibration testing.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td width="190" valign="top">
+<sub><b>MAY 2026</b></sub><br/>
+<sub>Warrensburg, MO</sub>
+</td>
+<td valign="top">
+<b>M.S. Computer Science</b> · University of Central Missouri
+<ul>
+<li>Algorithms &amp; Data Structures · Distributed Computing Systems · Machine Learning · Computer Architecture · Software Engineering · Network Security</li>
+</ul>
+</td>
+</tr>
+</table>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## Featured systems
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://factoryflow-ai.vercel.app/"><img src="assets/cards/factoryflow.svg" width="100%" alt="FactoryFlow AI: manufacturing copilot. A LangGraph agent routes machine alarms by confidence and streams the diagnosis." /></a>
+<p align="center"><sub><a href="https://factoryflow-ai.vercel.app/">Live demo</a> · <a href="https://github.com/panakantinandu/factoryflow-ai">Source</a></sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://mcpsentinel.vercel.app"><img src="assets/cards/sentinel.svg" width="100%" alt="MCPSentinel: four guardrail services for MCP and LLM traffic covering schema validation, tool authorization, streaming PII redaction and upstream failover." /></a>
+<p align="center"><sub><a href="https://mcpsentinel.vercel.app">Live console</a> · <a href="https://github.com/panakantinandu/MCPSentinel">Source</a></sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/panakantinandu/DevArena"><img src="assets/cards/devarena.svg" width="100%" alt="DevArena: multiplayer interview prep with live quiz battles, peer mock interviews and a 90-day mission planner." /></a>
+<p align="center"><sub><a href="https://github.com/panakantinandu/DevArena">Source</a></sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://propmind-6mkn.onrender.com"><img src="assets/cards/propmind.svg" width="100%" alt="PropMind: property management with AI tenant scoring and replay-safe Stripe billing on a double-entry ledger." /></a>
+<p align="center"><sub><a href="https://propmind-6mkn.onrender.com">Admin demo</a> · <a href="https://propmind-tenant.onrender.com">Tenant demo</a> · <a href="https://github.com/panakantinandu/PropMind">Source</a></sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://raki-frontend.vercel.app/"><img src="assets/cards/raki.svg" width="100%" alt="Raki: practice management for chartered-accountant firms. The Claude API extracts invoice fields so GST, ITR and TDS deadlines are tracked automatically." /></a>
+<p align="center"><sub><a href="https://raki-frontend.vercel.app/">Live demo</a> · <a href="https://github.com/panakantinandu/raki-ca-platform">Source</a></sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://ai-saas-copilot.vercel.app/"><img src="assets/cards/copilot.svg" width="100%" alt="SaaS Ops Copilot: GitHub organization intelligence for dormant repos, security exposure and CI/CD waste, with AI-written remediation plans." /></a>
+<p align="center"><sub><a href="https://ai-saas-copilot.vercel.app/">Live demo</a> · <a href="https://github.com/panakantinandu/ai-saas-copilot">Source</a></sub></p>
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>Engineering notes — what's under the hood</b></summary>
+<br/>
+
+**FactoryFlow AI** — polyglot system: Spring Boot owns the REST surface, JPA entities and PostgreSQL; a Python FastAPI service owns all LangGraph reasoning, tool execution and LLM calls, behind versioned HTTP contracts.
+- Conditional reasoning graph: high-confidence alarms take a fast path using validated prior fixes; low-confidence ones trigger retrieval, incident search and Tavily web search before diagnosis.
+- Resolved incidents are persisted with a `times_reused` counter, so resolution speed improves as the knowledge base grows.
+- Built solo in 24 hours, from a 7-table normalized schema through AWS deployment, CI/CD and a React UI streaming agent reasoning over SSE.
+
+**MCPSentinel** — four independent, separately tested Python services for the parts of MCP/LLM infra that break in production.
+- `mcp_server` validates tool input and never leaks stack traces · `mcp_proxy` blocks unauthorized callers from privileged `admin_*` tools.
+- `llm_gateway` redacts PII *mid-stream*, before the full response exists · `llm_router` fails over between upstreams and isolates runaway tenants.
+- A live console drives the real services, so a denial, a redaction or a failover happens in front of you, not against a mock.
+
+**DevArena** — modular monolith (Java 21, Spring Boot 4.1, React 19, PostgreSQL).
+- Server-authoritative multiplayer: timers, scoring and answer validation run on the server under a per-battle lock inside DB transactions.
+- Unique constraints make duplicate XP, duplicate answers and double mission completions impossible, even under concurrency.
+- HttpOnly session cookies through a same-origin proxy; WebSockets authenticate with short-lived single-use tickets. No paid AI APIs: every score is deterministic and explainable.
+
+**PropMind** — multi-tenant SaaS with separate admin and tenant portals over a shared service layer.
+- Stripe Checkout with signature-verified, idempotent webhooks and a double-entry ledger, so every transaction is traceable and replay-safe.
+- BullMQ/Redis jobs handle invoices, late fees, deposit expiry and rent reminders; Socket.io pushes real-time notifications.
+- Three production LLM features: tenant risk scoring, maintenance triage with priority classification, and a natural-language assistant over live records.
+
+**Raki** — multi-tenant SaaS for CA firms (Java 17, Spring Boot 3, React).
+- Strict tenant isolation across 15+ REST endpoints: Spring Security, JWT + Google OAuth2, account-scoped queries, Redis/Bucket4j rate limiting.
+- The Claude API extracts structured fields from unstructured invoices, cutting repetitive data entry on recurring filings.
+- Containerized, horizontally scalable deployment with managed PostgreSQL (Flyway) and Redis.
+
+**SaaS Ops Copilot** — FastAPI + SQLAlchemy + PostgreSQL behind GitHub OAuth (one-time code exchange → HttpOnly cookie).
+- Modular analytics flag dormant repos, security exposure and CI/CD spend; an LLM writes per-repo remediation plans.
+- A conversational copilot answers natural-language questions over live engineering data.
+
+</details>
+
+### More builds
+
+| Project | What it does | Stack | Links |
+|---|---|---|---|
+| **AI Workflow Platform** | Incident-response pipeline: async workers run LLM log analysis, then an evaluator scores each output 0–100 and rejects weak ones. | FastAPI · PostgreSQL · React · Prometheus | [Live](https://ai-workflow-platform-sigma.vercel.app/) · [Source](https://github.com/panakantinandu/ai-workflow-platform) |
+| **Draftly** | Document workspace with owner/editor/viewer sharing, revision-checked autosave (stale writes get a 409), and safe Markdown import. | Next.js · Prisma · PostgreSQL · Tiptap · Zod | [Live](https://collaborative-editor-neon-alpha.vercel.app) · [Source](https://github.com/panakantinandu/Collaborative_Editor) |
+| **Colony Connect** | Civic issue tracker for a residential colony: residents report, a volunteer counsellor triages and escalates to the municipality. | Spring Boot · JWT · React · Leaflet | [Live](https://colony-connect.vercel.app) · [Source](https://github.com/panakantinandu/ColonyConnect) |
+| **Identity Drift Detection** | Catches post-compromise IAM privilege escalation with daily snapshot diffing plus real-time CloudTrail rules and risk-scored alerts. | Lambda · EventBridge · CloudTrail · DynamoDB | [Source](https://github.com/panakantinandu/identity-drift-detection) |
+| **SafeVault** | ASP.NET Core app hardened against SQLi, XSS and broken access control: parameterized queries, PBKDF2, JWT + RBAC, attack-simulation tests. | C# · ASP.NET Core · JWT | [Source](https://github.com/panakantinandu/SafeVault) |
+| **Attrition Predictor** | Explainable ML: SHAP per-prediction attributions, SMOTE balancing, and a Streamlit app for batch CSV scoring. | scikit-learn · SHAP · Streamlit | [Live](https://ml-project-nan.onrender.com/) · [Source](https://github.com/panakantinandu/employee-attrition-predictor) |
+| **LeaseHub** | Property SaaS with admin and tenant portals, Stripe, automated rent cycles and late fees, plus audit logs. | Node.js · MongoDB · Stripe · Docker | [Live](https://leasehub-admin.onrender.com) · [Source](https://github.com/panakantinandu/leasehub) |
+
+<sub>Demos hosted on Render's free tier can take ~30 seconds to wake up.</sub>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## Stack
+
+<table>
+<tr>
+<td width="150"><sub><b>LANGUAGES</b></sub></td>
+<td><img src="https://skillicons.dev/icons?i=java,py,ts,js,cs,bash&theme=dark" height="40" alt="Java, Python, TypeScript, JavaScript, C#, Bash" /></td>
+</tr>
+<tr>
+<td><sub><b>BACKEND</b></sub></td>
+<td><img src="https://skillicons.dev/icons?i=spring,fastapi,nodejs,express,graphql,dotnet&theme=dark" height="40" alt="Spring Boot, FastAPI, Node.js, Express, GraphQL, .NET" /></td>
+</tr>
+<tr>
+<td><sub><b>AI &amp; LLM</b></sub></td>
+<td>
+
+![LangGraph](https://img.shields.io/badge/LangGraph-0A0D12?style=flat-square&logo=langchain&logoColor=3DFFA8)
+![LangChain](https://img.shields.io/badge/LangChain-0A0D12?style=flat-square&logo=langchain&logoColor=3DFFA8)
+![Claude API](https://img.shields.io/badge/Claude_API-0A0D12?style=flat-square&logo=anthropic&logoColor=3DFFA8)
+![OpenAI API](https://img.shields.io/badge/OpenAI_API-0A0D12?style=flat-square&logo=openai&logoColor=3DFFA8)
+![MCP](https://img.shields.io/badge/MCP-0A0D12?style=flat-square&logoColor=3DFFA8)
+![RAG](https://img.shields.io/badge/RAG_pipelines-0A0D12?style=flat-square)
+![Agents](https://img.shields.io/badge/Agent_orchestration-0A0D12?style=flat-square)
+![SHAP](https://img.shields.io/badge/SHAP-0A0D12?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td><sub><b>DATA</b></sub></td>
+<td><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,supabase,prisma,kafka,dynamodb&theme=dark" height="40" alt="PostgreSQL, MySQL, MongoDB, Redis, Supabase, Prisma, Kafka, DynamoDB" /></td>
+</tr>
+<tr>
+<td><sub><b>CLOUD &amp; OPS</b></sub></td>
+<td><img src="https://skillicons.dev/icons?i=aws,docker,terraform,githubactions,nginx,linux,vercel,prometheus&theme=dark" height="40" alt="AWS, Docker, Terraform, GitHub Actions, NGINX, Linux, Vercel, Prometheus" /></td>
+</tr>
+<tr>
+<td><sub><b>FRONTEND &amp; ML</b></sub></td>
+<td><img src="https://skillicons.dev/icons?i=react,nextjs,ts,vite,tailwind,sklearn&theme=dark" height="40" alt="React, Next.js, TypeScript, Vite, Tailwind CSS, scikit-learn" /></td>
+</tr>
+</table>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## How I build
+
+| Principle | In practice |
 |---|---|
-| 🤖 AI Risk Scoring | Evaluates income, rent-to-income ratio, payment history → risk score + confidence |
-| 🔧 Maintenance Triage AI | Classifies ticket category (plumbing/electrical/HVAC), sets priority automatically |
-| 💬 AI Support Assistant | Natural-language queries on live DB data — both admin and tenant facing |
-| 📊 AI Financial Summary | Narrative of revenue, dues, and overdue tenants generated on demand |
-| ⏱️ Automated Enforcement | Cron: cancel unpaid deposits, expire stale applications, apply late fees |
-| 🧾 Ledger-based Billing | Every transaction creates a traceable double-entry ledger record |
-| 🔒 Production Security | CSRF, Helmet, rate limiting, Mongo sanitize, Stripe webhook signature verification |
+| **Rules live in code, not in people** | Deposit expiry, late fees, tenant isolation and filing deadlines are enforced by schedulers, constraints and policies, not reminders. |
+| **Every money path is replayable** | Signature-verified, idempotent webhooks write to a double-entry ledger, so a retried event can never double-charge. |
+| **AI ships with guardrails** | Confidence routing, evaluator passes that reject weak outputs, schema validation, tool-level authz and streaming PII redaction. |
+| **The server is the source of truth** | Timers, scores and permissions are decided server-side and backed by database constraints that hold under concurrency. |
+| **Failures should be traceable** | Retries with persistent job state, metrics and audit logs, so "what happened?" has an answer. |
 
-[![Admin Demo](https://img.shields.io/badge/🔗_Admin_Portal-Live-8B5CF6?style=for-the-badge)](https://propmind-6mkn.onrender.com)
-[![Tenant Demo](https://img.shields.io/badge/🔗_Tenant_Portal-Live-6366F1?style=for-the-badge)](https://propmind-tenant.onrender.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Source-181717?style=for-the-badge&logo=github)](https://github.com/panakantinandu/PropMind)
+<img src="assets/divider.svg" width="100%" alt="" />
 
----
+## Credentials
 
-### ⚙️ AI Workflow Automation Platform
-> `FastAPI` `PostgreSQL` `React` `LLM APIs` `Prompt Engineering`
+[![Building with the Claude API](https://img.shields.io/badge/Anthropic-Building_with_the_Claude_API-10151D?style=for-the-badge&logo=anthropic&logoColor=3DFFA8&labelColor=0A0D12)](https://verify.skilljar.com/c/k997obwezamm)
+[![Claude Code in Action](https://img.shields.io/badge/Anthropic-Claude_Code_in_Action-10151D?style=for-the-badge&logo=anthropic&logoColor=3DFFA8&labelColor=0A0D12)](https://verify.skilljar.com/c/kpere2qc4net)
+[![AWS Cloud Architecting](https://img.shields.io/badge/AWS_Academy-Cloud_Architecting-10151D?style=for-the-badge&logo=amazonwebservices&logoColor=FFB547&labelColor=0A0D12)](https://www.credly.com/badges/60e3c565-1c17-4a49-a70e-630da5cacac1)
+[![AWS Cloud Security Foundations](https://img.shields.io/badge/AWS_Academy-Cloud_Security_Foundations-10151D?style=for-the-badge&logo=amazonwebservices&logoColor=FFB547&labelColor=0A0D12)](https://www.credly.com/badges/41edff27-62fc-481c-9fea-998259e90231)
 
-An orchestration engine that lets you define, schedule, and monitor AI-powered workflows without writing a new pipeline each time.
+<sub>Also: Walmart Advanced SWE and Skyscanner SWE job simulations (Forage) · NPTEL in DBMS, Python and Embedded Systems.</sub>
 
-```
-User defines workflow
-        │
-        ▼
-┌──────────────────────┐
-│  Workflow Scheduler  │  ← PostgreSQL-backed task queue
-└──────────┬───────────┘
-           │
-    ┌──────▼──────┐
-    │  Execution  │  ← Retry handling, observability
-    │   Engine    │
-    └──────┬──────┘
-           │
-    ┌──────▼──────────────┐
-    │   LLM Integration   │  ← Prompt-driven decision nodes
-    └──────┬──────────────┘
-           │
-    ┌──────▼──────┐
-    │  Analytics  │  ← Pipeline metrics, execution history
-    └─────────────┘
-```
+<img src="assets/divider.svg" width="100%" alt="" />
 
-[![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-Open-8B5CF6?style=for-the-badge)](https://github.com/panakantinandu)
-
----
-
-### 🏢 LeaseHub — Multi-Tenant SaaS Platform
-> `Node.js` `Express.js` `React` `MongoDB` `Docker` `Stripe`
-
-Production-grade SaaS. Multi-tenant isolation, Stripe payments, event-driven payment webhooks, full CI/CD. Zero manual invoicing.
-
-[![Admin Demo](https://img.shields.io/badge/Admin_Demo-Open-0A66C2?style=flat-square)](https://github.com/panakantinandu)
-[![Tenant Demo](https://img.shields.io/badge/Tenant_Demo-Open-0A66C2?style=flat-square)](https://github.com/panakantinandu)
-
----
-
-### 📡 Distributed Notification System
-> `Spring Boot` `Apache Kafka` `Redis` `PostgreSQL`
-
-Event-driven messaging pipeline with producer/consumer services, dead-letter queues, retry mechanisms, and fault-tolerant asynchronous processing at scale.
-
-```
-Producer Service  →  Kafka Topic  →  Consumer Service
-                          │
-                    Dead Letter Queue (on failure)
-                          │
-                    Retry Worker  →  Resolved / Alerting
-```
-
----
-
-### 🔐 AWS IAM Drift Detection
-> `AWS Lambda` `EventBridge` `CloudTrail` `DynamoDB`
-
-Real-time cloud security monitor. Detects privilege escalation and unexpected IAM changes across an AWS environment the moment they happen — not the next morning.
-
-[![GitHub](https://img.shields.io/badge/GitHub-Source-181717?style=flat-square&logo=github)](https://github.com/panakantinandu)
-
----
-
-### 📊 Employee Attrition Prediction System
-> `Python` `Scikit-learn` `SHAP` `Streamlit`
-
-End-to-end ML pipeline: preprocessing → feature engineering → model training → SHAP-based explainability → interactive Streamlit dashboard. Not just predictions — transparent reasoning.
-
-[![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-Open-FF4B4B?style=flat-square)](https://github.com/panakantinandu)
-
----
-
-## 📈 GitHub Activity
+## Activity
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=panakantinandu&theme=tokyonight&hide_border=true&background=0D1117&stroke=8B5CF6&ring=A78BFA&fire=F59E0B&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=A78BFA&sideLabels=A78BFA&dates=6B7280" width="49%"/>
+<img src="https://streak-stats.demolab.com?user=panakantinandu&hide_border=true&background=0A0D12&ring=3DFFA8&fire=FFB547&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=3DFFA8&sideLabels=8B98A9&dates=8B98A9&stroke=1E2733" width="80%" alt="GitHub contribution streak for panakantinandu" />
 
-<img src="https://github-readme-stats.vercel.app/api?username=panakantinandu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=FFFFFF&ring_color=A78BFA" width="49%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/panakantinandu/panakantinandu/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/panakantinandu/panakantinandu/output/snake.svg" width="100%" alt="Animated snake eating the GitHub contribution graph" />
+</picture>
 
 </div>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=panakantinandu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=FFFFFF&langs_count=8" width="40%"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=panakantinandu&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=A78BFA&line=8B5CF6&point=F59E0B" width="95%"/>
-
-</div>
-
----
-
-## 🏆 Certifications
-
-<div align="center">
-
-![AWS Cloud Architecting](https://img.shields.io/badge/AWS-Cloud_Architecting-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![AWS Cloud Security](https://img.shields.io/badge/AWS-Cloud_Security_Foundations-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Anthropic Claude API](https://img.shields.io/badge/Anthropic-Building_with_Claude_API-412991?style=flat-square&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Anthropic-Claude_Code_in_Action-412991?style=flat-square&logoColor=white)
-![Walmart SWE](https://img.shields.io/badge/Walmart-Advanced_SWE_Simulation-0071CE?style=flat-square&logoColor=white)
-![Skyscanner SWE](https://img.shields.io/badge/Skyscanner-SWE_Simulation-00B0F0?style=flat-square&logoColor=white)
-![NPTEL](https://img.shields.io/badge/NPTEL-DBMS_%7C_Python_%7C_Embedded-E53935?style=flat-square&logoColor=white)
-
-</div>
-
----
-
-## 💡 Engineering Philosophy
-
-```javascript
-const nandu = {
-  focus:      ["backend-first", "systems thinking", "production-grade"],
-  avoids:     ["CRUD apps with no real logic", "trust over automation"],
-  believes:   "business rules should be enforced by code, not people",
-  currentlyImproving: ["DSA patterns", "system design at scale", "distributed tracing"],
-  openTo:     "SWE roles — backend, AI systems, platform engineering"
-};
-```
-
----
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3000&pause=1000&color=6B7280&center=true&vCenter=true&width=600&lines=Actively+seeking+Software+Engineering+roles;Backend+%7C+AI+Systems+%7C+Platform+Engineering;Open+to+full-time+%26+internship+opportunities" />
 
 <br/>
 
-[![Connect on LinkedIn](https://img.shields.io/badge/Let's_connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nandu-panakanti-41839731a)
+<a href="https://www.linkedin.com/in/nandu-panakanti-41839731a/">
+  <img src="assets/footer.svg" width="100%" alt="Let's build systems that don't page you at 2 AM. Connect on LinkedIn." />
+</a>
 
-<br/>
+<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer"/>
+[![LinkedIn](https://img.shields.io/badge/Let's_talk_on_LinkedIn-10151D?style=for-the-badge&logo=linkedin&logoColor=3DFFA8&labelColor=0A0D12)](https://www.linkedin.com/in/nandu-panakanti-41839731a/)
+[![Email](https://img.shields.io/badge/Send_an_email-10151D?style=for-the-badge&logo=gmail&logoColor=3DFFA8&labelColor=0A0D12)](mailto:panakantinandu@gmail.com)
+[![Portfolio](https://img.shields.io/badge/See_the_portfolio-10151D?style=for-the-badge&logo=vercel&logoColor=3DFFA8&labelColor=0A0D12)](https://nandupanakanti.vercel.app/)
 
 </div>
